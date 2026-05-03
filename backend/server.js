@@ -14,7 +14,8 @@ const PORT = process.env.PORT || 5000;
 // CORS — allow requests from frontend
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://career-platform.netlify.app'
+  'https://career-platform.netlify.app',
+  'https://counsellingplatform.netlify.app'
 ];
 
 app.use(
